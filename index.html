@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Lista de Exercícios</title>
+</head>
+
+<body>
+    <h1 class="text-center font-weight-bold">Lista de exercícios</h1>
+    <section class="container">
+        <div>
+            <h3>Exercício 01: </h3>
+            <p>Crie uma função que recebe um número e verifica se ele é par ou ímpar.</p>
+            <div class="row">
+                <div class="col-md-auto">
+                    <label>Informe o número: </label>
+                    <input id="inputNumber" type="number">
+                    <button id="parImpar">Calcular</button>
+                </div>
+            </div>
+            <span class="text-justify font-weight-bold text-primary" id="parImparResult"></span>
+            <hr>
+        </div>
+        <div>
+            <h3>Exercício 02: </h3>
+            <p>Crie uma arrow function que receba um número e verifique se é primo.</p>
+            <div class="row">
+                <div class="col-md-auto">
+                    <label>Informe o número: </label>
+                    <input id="inputNumberPrimo" type="number">
+                    <button id="primoBtn">Calcular</button>
+                </div>
+            </div>
+            <span class="text-justify font-weight-bold text-primary" id="primoResult"></span>
+            <hr>
+        </div>
+        <div>
+            <h3>Exercício 03: </h3>
+            <p>Crie uma função que imprime de 10 até 1 e depois imprime na tela “feliz ano novo” através de uma
+                callback.</p>
+            <div class="row">
+                <div class="col-md-auto">
+                    <button id="regressivaBtn">Calcular</button>
+                    <span class="text-justify font-weight-bold text-primary" id="regressivaResult"></span>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div>
+            <h3>Exercício 04: </h3>
+            <p>Faça o mesmo utilizando Promise com concatenação de then.</p>
+            <div class="row">
+                <div class="col-md-auto">
+                    <button id="regressiva2Btn">Calcular</button>
+                    <span class="text-justify font-weight-bold text-primary" id="regressiva2Result"></span>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div>
+            <h3>Exercício 05: </h3>
+            <p>Agora repita a função utilizando o método async/await.</p>
+            <div class="row">
+                <div class="col-md-auto">
+                    <button id="regressiva3Btn">Calcular</button>
+                    <span class="text-justify font-weight-bold text-primary" id="regressiva3Result"></span>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div>
+            <h3>Exercício 06: </h3>
+            <p>Crie um array com as seguintes notas [5.3, 4.7, 8.5, 7.1, 6.4, 9.2, 9.8, 5.5, 7.4, 7.0], construa uma
+                função para imprimir apenas as notas acima de 7.</p>
+            <div class="row">
+                <div class="col-md-auto">
+                    <button id="array0Btn">Calcular</button>
+                    <span class="text-justify font-weight-bold text-primary" id="array0Result"></span>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div>
+            <h3>Exercício 07: </h3>
+            <p>Crie um array de objetos onde cada objeto será um produto de supermercado e terá o nome do produto e o
+                seu respectivo
+                preço, agora construa uma função que some todos os valores e te devolva o total.</p>
+            <span id="spanArr1"></span>
+            <div class="row">
+                <div class="col-md-auto">
+                    <button id="array1Btn">Calcular</button>
+                    <span class="text-justify font-weight-bold text-primary" id="array1Result"></span>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div>
+            <h3>Exercício 08: </h3>
+            <p>Em uma escola ficou definido que os alunos do 8º ano terão aulas de história e os alunos do 9º terão
+                aulas de física às quartas-feiras. Você deve criar uma função que receba um array de objetos contendo
+                nome e série de cada aluno e atribua a sua respectiva disciplina da quarta-feira. (O array de alunos
+                deve ser criado como você desejar contanto que contenha pelo menos 5 alunos).</p>
+            <span id="spanArr2"></span>
+            <div class="row">
+                <div class="col-md-auto">
+                    <button id="array2Btn">Calcular</button>
+                    <span class="text-justify font-weight-bold text-primary" id="array2Result"></span>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <script src="./js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
